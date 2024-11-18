@@ -1,0 +1,74 @@
+/* Body with black background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsla(0, 0%, 100%, 0.164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Box Container with dark background */
+.todo-box {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    width: 400px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+/* Header */
+h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Input Field with dark background and light text */
+input[type="text"] {
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(100% - 80px);
+    margin-right: 10px;
+    font-size: 14px;
+    background-color: #333;
+    color: #ffffff;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Add Button with blue color */
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Todo Items with light background and dark text */
+.todo-item {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #dddddd;
+    text-align: left;
+}
+
+/* No Record Text in light gray */
+.no-record {
+    color: #888888;
+    font-size: 18px;
+    margin-top: 20px;
+}
